@@ -26,14 +26,14 @@
                     "Biologia",
                     "Biomedicina ",
                     "Ciências Ambientais",
-                    "Ciências Biológicas -  Hab. Modalidade Médica",
+                    "Ciências Biológicas Modalidade Médica",
                     "Ciências Biológicas - Bacharelado",
                     "Ciências Biológicas - Licenciatura ",
                     "Ciências da Natureza",
                     "Enfermagem",
                     "Medicina",
-                    "Nutrição - Bacharelado - Turno Integral",
-                    "Nutrição - Bacharelado - Turno Noturno"
+                    "Nutrição - Turno Integral",
+                    "Nutrição - Turno Noturno"
 
                     ]
                   },
@@ -86,7 +86,6 @@
                             display: true,
                             scaleLabel: {
                                 display: true,
-                                labelString: 'Programas de pós-graduação'
                             }
                         }],
                     yAxes: [{

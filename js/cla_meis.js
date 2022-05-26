@@ -1,5 +1,5 @@
  var app = new Vue({
-            el: '#main',             
+            el: '#main',
             data: {
              graficos: {
               UNIRIO: {
@@ -7,43 +7,47 @@
                   grafico1: {
                     id: "grafico1",
                     titulo: "Proporção de egressos do CLA que são MEIs",
-                    numeros: [2.10, 97.9],
+                    numeros: [2.12, 97.88],
                     categorias: ["MEIs", "Não MEIs"]
                   },
                   grafico2: {
                     id: "grafico2",
                     titulo: "Proporção de egressos do CLA que são MEIs por curso",
                     numeros: [
-                    0.4091,
-                    0.1169,
-                    0.0584,
-                    0.0000,
-                    0.0584,
-                    0.1753,
-                    0.0000,
-                    0.4676,
-                    0.6429,
-                    0.1753
+                      1.2367,
+                      1.6260,
+                      7.1429,
+                      0.0000,
+                      3.4884,
+                      1.4599,
+                      4.7619,
+                      7.1429,
+                      0.0000,
+                      1.9185,
+                      3.5948,
+                      1.9108
 
 
                     ],
                     categorias: [
-                    "Artes Cênicas",
-          					"Atuação Cênica - Bacharelado",
-                    "Cenografia e Indumentária - Bacharelado ",
-          					"Direção Teatral - Bacharelado ",
-                    "Estética e Teoria do Teatro - Bacharelado ",
-          					"Letras - Bacharelado - Turno Noturno",
-          					"Letras - Licenciatura - Turno Noturno",
-          					"Música",
-          					"Música - Licenciatura ",
-          					"Teatro - Licenciatura (V/N)"
+                      "Artes Cênicas",
+                      "Atuação Cênica - Bacharelado ",
+                      "Cenografia e Indumentária ",
+                      "Direção Teatral - Bacharelado",
+                      "Educação Artística - Artes Cênicas",
+                      "Educação Artística - Música",
+                      "Estética e Teoria do Teatro",
+                      "Letras - Bacharelado",
+                      "Letras - Licenciatura",
+                      "Música",
+                      "Música - Licenciatura ",
+                      "Teatro - Licenciatura (V/N)"
                     ]
                   },
                   grafico3:{
                     id: "grafico3",
                     titulo: "Proporção de egressos do CLA que são MEIs por gênero",
-                    numeros: [0.4676, 1.6365],
+                    numeros: [1.1752, 3.0060],
                     categorias: [
                       "Feminino",
                       "Masculino",
@@ -53,12 +57,12 @@
                   id: "grafico4",
                   titulo: "Quantidade de egressos do CLA que são MEIs por faixa etária",
                   numeros: [
-							0,
-              3,
-              12,
-              15,
-              6,
-              0
+                    0,
+                    3,
+                    13,
+                    18,
+                    7,
+                    0
                             ],
                   categorias: [
                     "De 18 a 24 anos",
@@ -71,7 +75,7 @@
                 }
 
                }
-               
+
 
               }
              },
@@ -157,7 +161,7 @@
           "#00aba9",
           "#2b5797",
           "#e8c3b9",
-          "#1e7145", 
+          "#1e7145",
           "#a91d47",
           "#04aba9",
           "#2b57c7",

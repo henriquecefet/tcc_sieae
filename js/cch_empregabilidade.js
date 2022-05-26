@@ -28,21 +28,21 @@
                     ],
                     categorias: [
                       "Arquivologia",
-                      "Biblioteconomia - Bacharelado - Turno Matutino",
-                      "Biblioteconomia - Bacharelado - Turno Noturno",
-                      "Biblioteconomia - Licenciatura - Turno Noturno",
-                      "Ciências Sociais - Licenciatura - Turno Matutino",
-                      "Filosofia - Bacharelado - Turno Integral (V/N)",
-                      "Filosofia - Licenciatura - Turno Integral (V/N)",
+                      "Biblioteconomia - Turno Matutino",
+                      "Biblioteconomia - Turno Noturno",
+                      "Biblioteconomia - Licenciatura",
+                      "Ciências Sociais",
+                      "Filosofia - Bacharelado",
+                      "Filosofia - Licenciatura",
                       "História - Bacharelado - Turno Matutino",
                       "História - Turno Matutino",
                       "História - Licenciatura",
-                      "Museologia - Bacharelado - Turno Integral",
-                      "Museologia - Bacharelado - Turno Noturno",
+                      "Museologia - Turno Integral",
+                      "Museologia - Turno Noturno",
                       "Pedagogia",
-                      "Pedagogia - Licenciatura - Turno Noturno",
-                      "Pedagogia para os Anos Iniciais do Ensino Fundamental",
-                      "Serviço Social - Bacharelado - Turno Noturno",
+                      "Pedagogia - Licenciatura",
+                      "Pedagogia para o Ensino Fundamental",
+                      "Serviço Social",
                       "Turismo"
 
 
@@ -96,7 +96,7 @@
                             display: true,
                             scaleLabel: {
                                 display: true,
-                                labelString: 'Programas de pós-graduação'
+                          
                             }
                         }],
                     yAxes: [{

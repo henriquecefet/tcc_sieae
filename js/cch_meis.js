@@ -1,5 +1,5 @@
  var app = new Vue({
-            el: '#main',             
+            el: '#main',
             data: {
              graficos: {
               UNIRIO: {
@@ -7,29 +7,49 @@
                   grafico1: {
                     id: "grafico1",
                     titulo: "Proporção de egressos do CCH que são MEIs",
-                    numeros: [3.14, 96.86],
+                    numeros: [3.36, 96.64],
                     categorias: ["MEIs", "Não MEIs"]
                   },
                   grafico2: {
                     id: "grafico2",
                     titulo: "Proporção de egressos do CCH que são MEIs por curso",
                     numeros: [
-                    2.7778,
-                    3.9927,
-                    4.5455,
-                    6.0606,
-                    0.0000,
-                    1.1628,
-                    3.1114
+                      2.7778,
+                      3.9927,
+                      4.6041,
+                      0.0000,
+                      4.5455,
+                      6.0606,
+                      0.0000,
+                      1.1628,
+                      1.1050,
+                      0.5848,
+                      1.3283,
+                      0.0000,
+                      3.1114,
+                      4.3296,
+                      4.4540,
+                      0.0000,
+                      1.5267,
                     ],
                     categorias: [
-                    "Arquivologia - Bacharelado - Turno Noturno",
-                    "Biblioteconomia - Bacharelado - Turno Matutino",
-                    "Ciências Sociais - Licenciatura - Turno Matutino",
-                    "Filosofia - Bacharelado - Turno Integral (V/N)",
-                    "Filosofia - Licenciatura - Turno Integral (V/N)",
-                    "História - Bacharelado - Turno Matutino",
-                    "Pedagogia"
+                      "Arquivologia",
+                      "Biblioteconomia - Turno Matutino",
+                      "Biblioteconomia - Turno Noturno",
+                      "Biblioteconomia - Licenciatura",
+                      "Ciências Sociais",
+                      "Filosofia - Bacharelado",
+                      "Filosofia - Licenciatura",
+                      "História - Bacharelado - Turno Matutino",
+                      "História - Turno Matutino",
+                      "História - Licenciatura",
+                      "Museologia - Turno Integral",
+                      "Museologia - Turno Noturno",
+                      "Pedagogia",
+                      "Pedagogia - Licenciatura",
+                      "Pedagogia para o Ensino Fundamental",
+                      "Serviço Social",
+                      "Turismo"
 
 
                     ]
@@ -37,7 +57,7 @@
                   grafico3:{
                     id: "grafico3",
                     titulo: "Proporção de egressos do CCH que são MEIs por gênero",
-                    numeros: [2.9322, 4.0698],
+                    numeros: [2.8950, 4.0905],
                     categorias: [
                       "Feminino",
                       "Masculino",
@@ -47,12 +67,12 @@
                   id: "grafico4",
                   titulo: "Quantidade de egressos do CCH que são MEIs por faixa etária",
                   numeros: [
-        						1,
+                    2,
                     7,
-                    23,
-                    31,
-                    22,
-                    4
+                    53,
+                    58,
+                    57,
+                    12
                             ],
                   categorias: [
                     "De 18 a 24 anos",
@@ -65,7 +85,7 @@
                 }
 
                }
-               
+
 
               }
              },
@@ -151,7 +171,7 @@
           "#00aba9",
           "#2b5797",
           "#e8c3b9",
-          "#1e7145", 
+          "#1e7145",
           "#a91d47",
           "#04aba9",
           "#2b57c7",

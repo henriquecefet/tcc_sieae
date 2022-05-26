@@ -1,5 +1,5 @@
  var app = new Vue({
-            el: '#main',             
+            el: '#main',
             data: {
              graficos: {
               UNIRIO: {
@@ -7,7 +7,7 @@
                   grafico1: {
                     id: "grafico1",
                     titulo: "Proporção de egressos do CCH que são sócios",
-                    numeros: [7.53, 92.47],
+                    numeros: [8.9, 91.9],
                     categorias: ["Sócios", "Não sócios"]
                   },
                   grafico2: {
@@ -16,20 +16,40 @@
                     numeros: [
                       7.0175,
                       2.3593,
+                      6.4457,
+                      5.5556,
                       4.5455,
                       24.2424,
                       11.6279,
                       3.4884,
+                      13.8122,
+                      5.2632,
+                      6.4516,
+                      7.6923,
                       9.6237,
+                      6.2849,
+                      15.9483,
+                      3.0000,
+                      8.7786,
                     ],
                     categorias: [
-                    "Arquivologia - Bacharelado - Turno Noturno",
-                    "Biblioteconomia - Bacharelado - Turno Matutino",
-                    "Ciências Sociais - Licenciatura - Turno Matutino",
-                    "Filosofia - Bacharelado - Turno Integral (V/N)",
-                    "Filosofia - Licenciatura - Turno Integral (V/N)",
-                    "História - Bacharelado - Turno Matutino",
-                    "Pedagogia"
+                      "Arquivologia",
+                      "Biblioteconomia - Turno Matutino",
+                      "Biblioteconomia - Turno Noturno",
+                      "Biblioteconomia - Licenciatura",
+                      "Ciências Sociais",
+                      "Filosofia - Bacharelado",
+                      "Filosofia - Licenciatura",
+                      "História - Bacharelado - Turno Matutino",
+                      "História - Turno Matutino",
+                      "História - Licenciatura",
+                      "Museologia - Turno Integral",
+                      "Museologia - Turno Noturno",
+                      "Pedagogia",
+                      "Pedagogia - Licenciatura",
+                      "Pedagogia para o Ensino Fundamental",
+                      "Serviço Social",
+                      "Turismo"
 
 
                     ]
@@ -37,7 +57,7 @@
                   grafico3:{
                     id: "grafico3",
                     titulo: "Proporção de egressos do CCH que são sócios por gênero",
-                    numeros: [7.0897, 9.4961],
+                    numeros: [8.1142, 8.8773],
                     categorias: [
                       "Feminino",
                       "Masculino",
@@ -47,12 +67,12 @@
                   id: "grafico4",
                   titulo: "Quantidade de egressos do CCH que são sócios por faixa etária",
                   numeros: [
-        						2,
-                    9,
-                    56,
-                    67,
-                    67,
-                    10
+                    3,
+                    22,
+                    146,
+                    133,
+                    168,
+                    28
                             ],
                   categorias: [
                     "De 18 a 24 anos",
@@ -65,7 +85,7 @@
                 }
 
                }
-               
+
 
               }
              },
@@ -151,7 +171,7 @@
           "#00aba9",
           "#2b5797",
           "#e8c3b9",
-          "#1e7145", 
+          "#1e7145",
           "#a91d47",
           "#04aba9",
           "#2b57c7",
