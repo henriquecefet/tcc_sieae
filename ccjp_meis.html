@@ -16,7 +16,7 @@
       <ul class="right hide-on-med-and-down">
         <li><a href="#">Egressos de pós-graduação sócios</a></li>
         <li><a href="#">Egressos de pós-graduação MEI</a></li>
-    
+
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
@@ -35,15 +35,15 @@
       <h3 class="header center orange-text">Estatísticas e Dados de Egressos da UNIRIO</h3>
 
       <div id="main" class="row center">
-  
 
-  
+
+
         <h5 class="header col s12 light">Gráfico 1 - {{graficos.UNIRIO.CCJP.grafico1.titulo}}</h5>
 
-        <canvas id = "grafico1" width="1100" height="400" v-on:click = "graficoPizza(graficos.UNIRIO.CCJP.grafico1.id, graficos.UNIRIO.CCJP.grafico1.numeros,graficos.UNIRIO.CCJP.grafico1.categorias, graficos.UNIRIO.CCJP.grafico1.titulo)">
+        <canvas id = "grafico1" width="1100" height="600" v-on:click = "graficoPizza(graficos.UNIRIO.CCJP.grafico1.id, graficos.UNIRIO.CCJP.grafico1.numeros,graficos.UNIRIO.CCJP.grafico1.categorias, graficos.UNIRIO.CCJP.grafico1.titulo)">
             Seu navegador não suporta CANVAS
         </canvas>
-       
+
         <div class="blog-post">
         <h5 class="header col s12 light">Gráfico 2 - {{graficos.UNIRIO.CCJP.grafico2.titulo}}</h5>
         <canvas id = "grafico2" width="1100" height="600" v-on:click = "graficoBarraSemLimite(graficos.UNIRIO.CCJP.grafico2.id, graficos.UNIRIO.CCJP.grafico2.numeros,graficos.UNIRIO.CCJP.grafico2.categorias, graficos.UNIRIO.CCJP.grafico2.titulo)">
@@ -60,8 +60,8 @@
             Seu navegador não suporta CANVAS
         </canvas>
 
-   
-   
+
+
 
          </div>
 
