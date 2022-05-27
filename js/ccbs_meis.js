@@ -120,7 +120,6 @@
                             display: true,
                             scaleLabel: {
                                 display: true,
-                                labelString: 'Programas de pós-graduação'
                             }
                         }],
                     yAxes: [{
