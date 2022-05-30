@@ -102,7 +102,6 @@
                   }]
                 },
                 options: {
-                  legend: {display: false},
                   title: {
                     display: true,
                     text: titulo
@@ -132,7 +131,7 @@
                             display: true,
                             scaleLabel: {
                                 display: true,
-                                
+
                             }
                         }],
                     yAxes: [{
@@ -159,6 +158,7 @@
                   }]
                 },
                 options: {
+                  legend: {display: false},
                   title: {
                     display: true,
                     text: titulo

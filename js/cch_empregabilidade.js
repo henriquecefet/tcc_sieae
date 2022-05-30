@@ -96,7 +96,7 @@
                             display: true,
                             scaleLabel: {
                                 display: true,
-                          
+
                             }
                         }],
                     yAxes: [{
