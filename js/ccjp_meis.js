@@ -31,7 +31,7 @@
                   grafico3:{
                     id: "grafico3",
                     titulo: "Proporção de egressos do CCJP que são MEIs por gênero",
-                    numeros: [0.0710, 0.2661],
+                    numeros: [35.71, 64.29],
                     categorias: [
                       "Feminino",
                       "Masculino",

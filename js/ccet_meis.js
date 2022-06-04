@@ -7,7 +7,7 @@
                   grafico1: {
                     id: "grafico1",
                     titulo: "Proporção de egressos do CCET que são MEIs",
-                    numeros: [2.67, 97.33],
+                    numeros: [29.42, 70.58],
                     categorias: ["MEIs", "Não MEIs"]
                   },
                   grafico2: {
@@ -42,7 +42,7 @@
                    grafico4: {
                 	id: "grafico4",
                 	titulo: "Proporção de egressos do CCET  que são MEIs por gênero por categoira de curso",
-                	numeros: [4.8128, 1.6495],
+                	numeros: [52.94, 47.05],
                 	categorias: [
                 		"Graduação EAD",
                 		"Graduação Presencial"

@@ -57,7 +57,7 @@
                   grafico3:{
                     id: "grafico3",
                     titulo: "Proporção de egressos do CCH que são MEIs por gênero",
-                    numeros: [2.8950, 4.0905],
+                    numeros: [75.14, 24.86],
                     categorias: [
                       "Feminino",
                       "Masculino",

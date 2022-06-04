@@ -33,7 +33,7 @@
                   grafico3:{
                     id: "grafico3",
                     titulo: "Proporção de egressos do CCET que são sócios por gênero",
-                    numeros: [10, 12.26],
+                    numeros: [28.88, 71.11],
                     categorias: [
                       "Feminino",
                       "Masculino",
@@ -42,7 +42,7 @@
                    grafico4: {
                 	id: "grafico4",
                 	titulo: "Proporção de egressos do CCET  que são sócios por gênero por categoira de curso",
-                	numeros: [11.22, 14.22],
+                	numeros: [23.33, 76.66], 
                 	categorias: [
                 		"Graduação EAD",
                 		"Graduação Presencial"
@@ -50,7 +50,7 @@
                 },
                  grafico5: {
                   id: "grafico5",
-                  titulo: "Quantidade de egressos de pós-graduação que são sócios por faixa etária",
+                  titulo: "Quantidade de egressos do CCET que são sócios por faixa etária",
                   numeros: [
                             0,
 							7,

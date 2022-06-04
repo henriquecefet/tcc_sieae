@@ -48,7 +48,7 @@
                   grafico3:{
                     id: "grafico3",
                     titulo: "Proporção de egressos do CLA que são sócios por gênero",
-                    numeros: [15.5983, 17.5351],
+                    numeros: [45.48, 54.52],
                     categorias: [
                       "Feminino",
                       "Masculino",

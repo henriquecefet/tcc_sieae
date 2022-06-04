@@ -47,7 +47,7 @@
                   grafico3:{
                     id: "grafico3",
                     titulo: "Proporção de egressos do CLA que são MEIs por gênero",
-                    numeros: [1.1752, 3.0060],
+                    numeros: [26.8293, 73.1707],
                     categorias: [
                       "Feminino",
                       "Masculino",

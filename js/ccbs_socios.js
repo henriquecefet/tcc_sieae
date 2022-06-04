@@ -46,7 +46,7 @@
                   grafico3:{
                     id: "grafico3",
                     titulo: "Proporção de egressos do CCBS que são sócios por gênero",
-                    numeros: [19.1882, 41.8033],
+                    numeros: [53.60, 46.40],
                     categorias: [
                       "Feminino",
                       "Masculino",

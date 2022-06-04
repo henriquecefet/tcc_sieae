@@ -57,7 +57,7 @@
                   grafico3:{
                     id: "grafico3",
                     titulo: "Proporção de egressos do CCH que são sócios por gênero",
-                    numeros: [8.1142, 8.8773],
+                    numeros: [79.60, 20.40],
                     categorias: [
                       "Feminino",
                       "Masculino",

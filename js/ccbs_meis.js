@@ -46,7 +46,7 @@
                   grafico3:{
                     id: "grafico3",
                     titulo: "Proporção de egressos do CCBS que são MEIs por gênero",
-                    numeros: [1.1938, 1.9126],
+                    numeros: [61.11, 38.88],
                     categorias: [
                       "Feminino",
                       "Masculino",
