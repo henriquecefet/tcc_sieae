@@ -33,7 +33,7 @@
                   grafico3:{
                     id: "grafico3",
                     titulo: "Proporção de egressos do CCET que são MEIs por gênero",
-                    numeros: [2.1834, 2.7088],
+                    numeros: [29.42, 70.58],
                     categorias: [
                       "Feminino",
                       "Masculino",
