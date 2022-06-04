@@ -31,7 +31,7 @@
                   grafico3:{
                     id: "grafico3",
                     titulo: "Proporção de egressos do CCJP que são sócios por gênero",
-                    numeros: [12.5858, 20.1258],
+                    numeros: [40.74, 59.26],
                     categorias: [
                       "Feminino",
                       "Masculino",
