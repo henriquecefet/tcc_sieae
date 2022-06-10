@@ -24,9 +24,9 @@
                     id: "grafico2",
                     titulo: "Renda média de egressos do CCET por curso",
                     numeros: [
-                       5009.03, 
-                       2956.43, 
-                       8084.75 
+                       5009.03,
+                       2956.43,
+                       8084.75
                     ],
                     categorias: [
                     "Engenharia de Produção",
@@ -34,6 +34,7 @@
                     "Sistemas de Informação"
                     ]
                   },
+
 
                }
 
@@ -80,7 +81,7 @@
                             display: true,
                             scaleLabel: {
                                 display: true,
-                          
+
                             }
                         }],
                     yAxes: [{
