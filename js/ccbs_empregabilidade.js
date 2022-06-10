@@ -8,17 +8,17 @@
                     id: "grafico1",
                     titulo: "Empregabilidade do CCBS por curso",
                     numeros: [
-                      41.86,
-                      38.44,
-                      47.46,
-                      49.58,
-                      44.26,
-                      49.54,
-                      54.55,
-                      58.74,
-                      48.64,
-                      44.57,
-                      33.33,
+                      43.02,
+                      34.13,
+                      41.81,
+                      61.44,
+                      44.28,
+                      53.66,
+                      40.91,
+                      67.75,
+                      53.37,
+                      50.10,
+                      31.82
 
 
                     ],
@@ -37,6 +37,41 @@
 
                     ]
                   },
+
+                  grafico2: {
+                    id: "grafico2",
+                    titulo: "Renda Média do CCBS por curso",
+                    numeros: [
+                        2800.00,
+                        4600.90,
+                        3534.22,
+                        8392.07,
+                        5252.49,
+                        4982.97,
+                        3723.70,
+                        5472.88,
+                        8496.03,
+                        4998.08,
+                        3997.90
+
+
+                    ],
+                    categorias: [
+                    "Biologia",
+                    "Biomedicina ",
+                    "Ciências Ambientais",
+                    "Ciências Biológicas Modalidade Médica",
+                    "Ciências Biológicas - Bacharelado",
+                    "Ciências Biológicas - Licenciatura ",
+                    "Ciências da Natureza",
+                    "Enfermagem",
+                    "Medicina",
+                    "Nutrição - Turno Integral",
+                    "Nutrição - Turno Noturno"
+
+                    ]
+                  },
+
 
 
                }

@@ -8,10 +8,10 @@
                     id: "grafico1",
                     titulo: "Empregabilidade de egressos do CCET por curso",
                     numeros: [
-                      78.22,
-            					57.58,
+                      79.21,
+            					54.55,
             					65.35,
-            					68.75
+            					72.32
                     ],
                     categorias: [
                     "Engenharia de Produção",
@@ -20,6 +20,21 @@
           					"Sistemas de Informação"
                     ]
                   },
+                  grafico2: {
+                    id: "grafico2",
+                    titulo: "Renda média de egressos do CCET por curso",
+                    numeros: [
+                       5009.03, 
+                       2956.43, 
+                       8084.75 
+                    ],
+                    categorias: [
+                    "Engenharia de Produção",
+                    "Matemática",
+                    "Sistemas de Informação"
+                    ]
+                  },
+
                }
 
 

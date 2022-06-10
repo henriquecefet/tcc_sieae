@@ -8,9 +8,25 @@
                     id: "grafico1",
                     titulo: "Empregabilidade do CCJP por curso",
                     numeros: [
-                      61.28,
-                      35.66,
-                      49.77
+                      62.20,
+                      33.88,
+                      50.46
+
+
+                    ],
+                    categorias: [
+                      "Administração Pública",
+                      "Ciência Política",
+                      "Direito"
+                    ]
+                  },
+                  grafico2: {
+                    id: "grafico2",
+                    titulo: "Renda Média do CCJP por curso",
+                    numeros: [
+                        4587.47, 
+                        3291.74,
+                        11679.43 
 
 
                     ],

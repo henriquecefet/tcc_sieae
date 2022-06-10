@@ -8,23 +8,23 @@
                     id: "grafico1",
                     titulo: "Empregabilidade do CCH por curso",
                     numeros: [
-                      68.72,
-                      58.73,
-                      62.80,
+                      71.60,
+                      62.98,
+                      67.40,
                       55.56,
                       13.64,
-                      30.30,
+                      24.24,
                       39.53,
-                      40.70,
-                      66.30,
-                      33.92,
-                      48.58,
+                      30.23,
+                      70.17,
+                      30.41,
+                      49.34,
                       43.59,
-                      70.37,
-                      58.40,
-                      67.63,
+                      81.46,
+                      75.80,
+                      78.88,
                       43.00,
-                      62.60
+                      61.07
                     ],
                     categorias: [
                       "Arquivologia",
@@ -48,7 +48,50 @@
 
                     ]
                   },
+                  grafico2: {
+                    id: "grafico2",
+                    titulo: "Renda Média do CCH por curso",
+                    numeros: [
+                        5243.85, 
+                        4529.60,
+                        4833.70,
+                        3691.29 ,
+                        807.44 ,
+                        8669.66 ,
+                        3411.92 ,
+                        4596.05 ,
+                        5156.75 ,
+                        2185.61 ,
+                        4713.05 ,
+                        4242.30 ,
+                        3055.29 ,
+                        5185.01 ,
+                        3679.28 ,
+                        3385.35 ,
+                        4538.83 ,
+                    ],
+                    categorias: [
+                      "Arquivologia",
+                      "Biblioteconomia - Turno Matutino",
+                      "Biblioteconomia - Turno Noturno",
+                      "Biblioteconomia - Licenciatura",
+                      "Ciências Sociais",
+                      "Filosofia - Bacharelado",
+                      "Filosofia - Licenciatura",
+                      "História - Bacharelado - Turno Matutino",
+                      "História - Turno Matutino",
+                      "História - Licenciatura",
+                      "Museologia - Turno Integral",
+                      "Museologia - Turno Noturno",
+                      "Pedagogia",
+                      "Pedagogia - Licenciatura",
+                      "Pedagogia para o Ensino Fundamental",
+                      "Serviço Social",
+                      "Turismo"
 
+
+                    ]
+                  },
                }
 
 

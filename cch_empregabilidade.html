@@ -43,6 +43,11 @@
             Seu navegador não suporta CANVAS
         </canvas>
 
+        <h5 class="header col s12 light">Gráfico 2 - {{graficos.UNIRIO.CCH.grafico2.titulo}}</h5>
+        <canvas id = "grafico2" width="1100" height="700" v-on:click = "graficoBarraSemLimite(graficos.UNIRIO.CCH.grafico2.id, graficos.UNIRIO.CCH.grafico2.numeros,graficos.UNIRIO.CCH.grafico2.categorias, graficos.UNIRIO.CCH.grafico2.titulo)">
+            Seu navegador não suporta CANVAS
+        </canvas>
+
          </div>
 
 
@@ -57,7 +62,8 @@
       <div class="row">
         <div class="col l6 s12">
           <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+          <p class="grey-text text-lighten-4">O Sistema de Acompanhamento de egressos é uma ferramenta que ajuda os gestores acadêmicos a conhecerem melhor a vida profissional e o perfil empreendedor de egressos de cursos universitários.</p>
+
 
 
         </div>
@@ -101,7 +107,7 @@
    <script type="text/javascript">
           function init(){
             document.getElementById("grafico1").click();
-            //document.getElementById("grafico2").click();
+            document.getElementById("grafico2").click();
             //document.getElementById("grafico3").click();
             //document.getElementById("grafico4").click();
             //document.getElementById("grafico5").click();

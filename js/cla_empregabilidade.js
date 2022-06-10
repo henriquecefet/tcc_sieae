@@ -9,17 +9,17 @@
                     titulo: "Empregabilidade do CLA por curso",
                     numeros: [
                       33.69,
-                      26.02,
+                      24.39,
                       21.43,
-                      18.18,
-                      66.28,
-                      58.82,
+                      9.09,
+                      65.12,
+                      61.76,
                       14.29,
                       33.33,
-                      50.00,
+                      51.85,
                       39.23,
-                      46.05,
-                      46.50,
+                      46.08,
+                      45.22
 
 
                     ],
@@ -34,6 +34,37 @@
                     "Letras - Bacharelado",
                     "Letras - Licenciatura",
                     "Música",
+                    "Música - Licenciatura ",
+                    "Teatro - Licenciatura (V/N)"
+
+                    ]
+                  },
+                   grafico2: {
+                    id: "grafico2",
+                    titulo: "Renda Média do CLA por curso",
+                    numeros: [
+                        2026.46, 
+                        2202.36, 
+                        1348.40, 
+                        5170.62, 
+                        6043.36, 
+                        5021.37, 
+                        5278.99, 
+                        2580.56, 
+                        4138.52, 
+                        3694.32, 
+
+
+                    ],
+                    categorias: [
+                    "Atuação Cênica - Bacharelado ",
+                    "Cenografia e Indumentária ",
+                    "Direção Teatral - Bacharelado",
+                    "Educação Artística - Artes Cênicas",
+                    "Educação Artística - Música",
+                    "Estética e Teoria do Teatro",
+                    "Letras - Bacharelado",
+                    "Letras - Licenciatura",
                     "Música - Licenciatura ",
                     "Teatro - Licenciatura (V/N)"
 

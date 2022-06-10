@@ -43,6 +43,12 @@
             Seu navegador não suporta CANVAS
         </canvas>
 
+        <h5 class="header col s12 light">Gráfico 2 - {{graficos.UNIRIO.CCET.grafico2.titulo}}</h5>
+
+        <canvas id = "grafico2" width="1100" height="700" v-on:click = "graficoBarraSemLimite(graficos.UNIRIO.CCET.grafico2.id, graficos.UNIRIO.CCET.grafico2.numeros,graficos.UNIRIO.CCET.grafico2.categorias, graficos.UNIRIO.CCET.grafico2.titulo)">
+            Seu navegador não suporta CANVAS
+        </canvas>
+
 
 
          </div>
@@ -103,7 +109,7 @@
    <script type="text/javascript">
           function init(){
             document.getElementById("grafico1").click();
-            //document.getElementById("grafico2").click();
+            document.getElementById("grafico2").click();
             //document.getElementById("grafico3").click();
             //document.getElementById("grafico4").click();
             //document.getElementById("grafico5").click();
