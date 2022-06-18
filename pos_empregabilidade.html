@@ -29,7 +29,11 @@
       <h3 class="header center orange-text">Estatísticas e Dados de Egressos da Pós-Graduação</h3>
 
       <div id="main" class="row center">
+        <h5 class="header col s12 light">Gráfico 1 - {{graficos.UNIRIO.posgraduacao.grafico1.titulo}}</h5>
 
+        <canvas id = "grafico1" width="1100" height="700" v-on:click = "graficoBarra(graficos.UNIRIO.posgraduacao.grafico1.id, graficos.UNIRIO.posgraduacao.grafico1.numeros,graficos.UNIRIO.posgraduacao.grafico1.categorias, graficos.UNIRIO.posgraduacao.grafico1.titulo)">
+                    Seu navegador não suporta CANVAS
+        </canvas>
 
 
 
@@ -133,7 +137,7 @@
   <script src="js/init.js"></script>
    <script type="text/javascript">
           function init(){
-            //document.getElementById("grafico1").click();
+            document.getElementById("grafico1").click();
             //document.getElementById("grafico2").click();
             //document.getElementById("grafico3").click();
             //document.getElementById("grafico4").click();
