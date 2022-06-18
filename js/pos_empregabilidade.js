@@ -72,7 +72,7 @@
                     id: "grafico2",
                     titulo: "Renda média de egressos de pós-graduação por programa",
                     numeros: [
-                       3322.97, 
+                       3322.97,
                        6037.89 ,
                        3818.05 ,
                        8968.23 ,
@@ -97,7 +97,7 @@
                        4969.69 ,
                        3509.35 ,
                        2636.69 ,
-                       4412.89 
+                       4412.89
 
 
                     ],
@@ -128,14 +128,9 @@
                     "BIOLOGIA MOLECULAR E CELULAR",
                     "CIÊNCIAS BIOLÓGICAS",
                     "CIÊNCIA POLÍTICA"
-
-
                     ]
                   },
-
                }
-
-
               }
              },
 
@@ -180,7 +175,7 @@
                             display: true,
                             scaleLabel: {
                                 display: true,
-                
+
                             }
                         }],
                     yAxes: [{
