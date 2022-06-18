@@ -34,7 +34,11 @@
         <canvas id = "grafico1" width="1100" height="700" v-on:click = "graficoBarra(graficos.UNIRIO.posgraduacao.grafico1.id, graficos.UNIRIO.posgraduacao.grafico1.numeros,graficos.UNIRIO.posgraduacao.grafico1.categorias, graficos.UNIRIO.posgraduacao.grafico1.titulo)">
                     Seu navegador não suporta CANVAS
         </canvas>
+        <h5 class="header col s12 light">Gráfico 2 - {{graficos.UNIRIO.posgraduacao.grafico2.titulo}}</h5>
 
+         <canvas id = "grafico2" width="1100" height="700" v-on:click = "graficoBarraSemLimite(graficos.UNIRIO.posgraduacao.grafico2.id, graficos.UNIRIO.posgraduacao.grafico2.numeros,graficos.UNIRIO.posgraduacao.grafico2.categorias, graficos.UNIRIO.posgraduacao.grafico2.titulo)">
+             Seu navegador não suporta CANVAS
+         </canvas>
 
 
 
@@ -131,14 +135,14 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
   <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datasource@0.1.0"></script>
   <script src="http://d3js.org/d3.v5.min.js" charset="utf-8"></script>
-  <script src="js/pos_empregabilidade.js"></script>
+  <script src="js/novo_pos_empregabilidade.js"></script>
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
    <script type="text/javascript">
           function init(){
             document.getElementById("grafico1").click();
-            //document.getElementById("grafico2").click();
+            document.getElementById("grafico2").click();
             //document.getElementById("grafico3").click();
             //document.getElementById("grafico4").click();
             //document.getElementById("grafico5").click();
