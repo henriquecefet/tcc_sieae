@@ -89,10 +89,7 @@
   <script type="text/javascript">
     function irEstatistica(opcao){
       let centro = localStorage.getItem("centro").toLowerCase();
-       window.location.href = centro+"_"+opcao+".html"
-       if(centro == "pos" && opcao == "empregabilidade"){
-         window.location.href = "novo_" + centro+"_"+opcao+".html"
-       }
+       window.location.href = centro+"_"+opcao+".html";
     }
     window.onload = function() {
       let centro = localStorage.getItem("centro");
