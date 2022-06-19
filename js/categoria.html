@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>SiAE</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">SiAE</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="sobre.html">Sobre a Pesquisa</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="sobre.html">Sobre a Pesquisa</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="section">
+        <h3 class="header center orange-text" id = "titulo" class="center" onload = "carregarTitulo()">A</h3>
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4" onclick="irEstatistica('socios')">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><img src="https://cdn1.iconfinder.com/data/icons/business-elements-15/150/Firma-512.png" style="width:350px;height:300px;padding-right: 40px"></h2>
+            <h5 class="center">Sócios de Empresas</h5>
+
+
+          </div>
+        </div>
+
+        <div class="col s12 m4"  onclick="irEstatistica('meis')">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><img src="https://cdn-icons-png.flaticon.com/512/875/875297.png" style="width:350px;height:300px;padding-right: 40px"></h2>
+            <h5 class="center">MEIs</h5>
+          </div>
+        </div>
+
+        <div class="col s12 m4" onclick="irEstatistica('empregabilidade')">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><img src="https://png.pngtree.com/png-vector/20191017/ourlarge/pngtree-suitcase-in-magnifier-glass-job-hunting-vector-png-image_1804389.jpg" style="width:350px;height:300px;padding-right: 40px"></h2>
+            <h5 class="center">Empregabilidade</h5>
+
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+
+    </div>
+    <br><br>
+  </div>
+<script type="text/javascript">
+	function irCategoria(centro){
+		localStorage.setItem("centro", centro);
+		 window.location.href = "categoria"
+	}
+
+</script>
+  <footer class="page-footer orange">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Sobre o SiAE</h5>
+          <p class="grey-text text-lighten-4">O Sistema de Acompanhamento de egressos é uma ferramenta que ajuda os gestores acadêmicos a conhecerem melhor a vida profissional e o perfil empreendedor de egressos de cursos universitários.</p>
+
+
+        </div>
+
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript">
+    function irEstatistica(opcao){
+      let centro = localStorage.getItem("centro").toLowerCase();
+       window.location.href = centro+"_"+opcao+".html"
+    }
+    window.onload = function() {
+      let centro = localStorage.getItem("centro");
+      if(centro != "pos"){
+        document.getElementById("titulo").innerHTML = "Empregabilidade e Perfil Empreendedor do "+centro;
+      }
+      else{
+        document.getElementById("titulo").innerHTML = "Empregabilidade e Perfil Empreendedor da Pós-Graduação";
+      }
+    }
+
+  </script>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
